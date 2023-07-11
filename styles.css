@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center;
+}
+
+.section1 {
+    background: rgba(229, 84, 115, 0.10);
+}
+.section1 .container {
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.headingBig {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+}
+.subHead {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 32px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.floating {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 800px;
+}
+
+
+
+.section2 {
+    padding-top: 178px;
+}
+.heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subHead.s2 {
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.flowerGarden {
+    display: flex;
+    gap: 24px;
+}
+.flower {
+    flex: 1;
+    height: 580px;
+}
+.flower .f1, .flower .f2, .flower .f3 {
+    height: 538px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    overflow: hidden;
+    position: relative;
+}
+.flower .f1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower .f2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower .f3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower img {
+    position: absolute;
+}
+.f1 img {
+    height: 428px;
+    width: 310px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.f2 img {
+    height: 370px;
+    width: 370px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.f3 img {
+    height: 471px;
+    width: 314px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.link {
+    display: block;
+    text-align: center;
+    padding: 24px 0;
+    color: #272727;
+}
+
+.section3 {
+    padding-top: 100px;
+}
+.section3 .container {
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 0;
+}
+.iconic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+.iconic img {
+    height: 88px;
+    width: 88px;
+}
+p.gray {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+.section4 {
+    background: rgba(229, 84, 115, 0.05);
+    margin: 128px 0;
+}
+.position {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 230px;
+    padding-bottom: 182px;
+}
+.floating2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15%;
+}
+
+
+.section6 {
+    margin-top: 128px;
+}
+.section6 .container {
+    height: 450px;
+    background: url(./pic/s6p1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+input {
+    border: none;
+    border-radius: 8px;
+    height: 65px;
+    width: 700px;
+    padding-left: 20px;
+}
+
+span.red {
+    color: #E55473;
+}
+
+.headingHot {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+.footer {
+    background: #111010;
+    margin-top: 128px;
+}
+.footer .container {
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newHead {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.newSub {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
